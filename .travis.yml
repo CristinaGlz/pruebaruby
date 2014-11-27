@@ -4,7 +4,7 @@ rvm:
 
 install:
  - gem install cucumber
- 
+ - gem install simplecov 
 script:
   - cd bdd
   - cucumber feature/prueba.feature
