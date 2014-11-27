@@ -1,0 +1,12 @@
+language: ruby
+
+install:
+ 
+ - sudo apt-get update
+ - sudo apt-get install ruby
+ - sudo gem install cucumber
+ 
+ 
+script:
+  - cd bdd
+  - cucumber feature\prueba.feature
