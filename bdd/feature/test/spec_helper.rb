@@ -1,8 +1,8 @@
+require "codeclimate-test-reporter"
 require 'simplecov'
-require 'codeclimate-test-reporter'
 require 'coveralls'
-SimpleCov.add_filter 'vendor'
-SimpleCov.formatters = []
-SimpleCov.start CodeClimate::TestReporter.configuration.profile
+CodeClimate::TestReporter.configuration.profile
+CodeClimate::TestReporter.start
+SimpleCov.start
 Coveralls.wear!
 
