@@ -8,4 +8,4 @@ install:
  
 script:
   - cd bdd
-  - cucumber feature\prueba.feature
+  - cucumber feature/prueba.feature
