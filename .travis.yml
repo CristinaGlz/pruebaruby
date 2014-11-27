@@ -8,6 +8,5 @@ install:
 script:
   - cd bdd
   - cucumber feature/prueba.feature
-after_success:
-  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
+
   
