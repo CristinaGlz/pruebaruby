@@ -1,8 +1,9 @@
+language: ruby
+rvm:
+  - 1.9.3
 
 install:
- 
-
- - sudo gem install cucumber
+ - gem install cucumber
  
  
 script:
