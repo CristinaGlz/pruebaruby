@@ -6,7 +6,7 @@ install:
  - gem install cucumber
  - gem install simplecov 
  - gem install coveralls 
- -gem install codeclimate-test-reporter
+ - gem install codeclimate-test-reporter
  
 script:
   - cd bdd
