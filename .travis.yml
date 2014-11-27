@@ -4,8 +4,11 @@ rvm:
 
 install:
  - gem install cucumber
- 
+ - gem install coveralls 
  
 script:
   - cd bdd
   - cucumber feature/prueba.feature
+  - coveralls open
+  - coveralls push
+  - coveralls report
