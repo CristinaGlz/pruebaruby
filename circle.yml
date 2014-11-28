@@ -1,6 +1,6 @@
 machine:
   ruby:
-    version: 1.9.3p550 
+    version: 1.9.3
  override:
      - gem install cucumber
      - gem install simplecov 
