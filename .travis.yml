@@ -10,6 +10,9 @@ install:
  
 script:
   - cd bdd
-  - cucumber feature/*.feature
+  - cucumber feature/Ingresos.feature
+  - cucumber feature/prestaExtras.feature
+  - cucumber feature/salario.feature
+  - cucumber feature/SalarioBase.feature
 
   
