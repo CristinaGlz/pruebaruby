@@ -1,0 +1,17 @@
+machine:
+  ruby:
+    version: 1.9.3p550 
+dependencies:
+  pre:
+    - sudo install ruby
+   
+    override:
+     - gem install cucumber
+     - gem install simplecov 
+     - gem install coveralls 
+     - gem install codeclimate-test-reporter
+        
+test:
+  override:
+     - cd bdd
+     - cucumber feature/*.feature
