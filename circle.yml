@@ -1,11 +1,12 @@
 machine:
   ruby:
     version: 1.9.3
-  override:
-     - gem install cucumber
-     - gem install simplecov 
-     - gem install coveralls 
-     - gem install codeclimate-test-reporter
+dependencies:
+  pre:
+    - gem install cucumber
+    - gem install simplecov 
+    - gem install coveralls 
+    - gem install codeclimate-test-reporter
 test:
   override:
      - cd bdd
